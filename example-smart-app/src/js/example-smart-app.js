@@ -144,7 +144,8 @@
 
   }
 
-  window.drawVisualization = function(p) { alert(p.gender);
+  window.drawVisualization = function(p) { 
+    alert(p.fname);
     $('#holder').show();
     $('#loading').hide();
     $('#fname').html(p.fname);
