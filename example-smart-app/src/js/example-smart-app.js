@@ -144,7 +144,7 @@
 
   }
 
-  window.drawVisualization = function(p) { alert(p.deceasedBoolean);
+  window.drawVisualization = function(p) { alert(p.maritalStatus);
     $('#holder').show();
     $('#loading').hide();
     $('#fname').html(p.fname);
