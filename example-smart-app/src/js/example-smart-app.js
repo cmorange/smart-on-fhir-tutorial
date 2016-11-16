@@ -144,7 +144,7 @@
 
   }
 
-  window.drawVisualization = function(p) {
+  window.drawVisualization = function(p) { alert(p.deceasedBoolean);
     $('#holder').show();
     $('#loading').hide();
     $('#fname').html(p.fname);
