@@ -145,7 +145,7 @@
   }
 
   window.drawVisualization = function(p) { 
-    alert(JSON.stringify(p))
+    
     $('#holder').show();
     $('#loading').hide();
     $('#fname').html(p.fname);
